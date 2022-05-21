@@ -1,1 +1,6 @@
 /* give your assignment a fun background color */
+body {
+    background-color: aquamarine;
+    border: solid 4px #6e43b8;
+    text-align: center;
+}
