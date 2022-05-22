@@ -75,19 +75,15 @@ console.log('9. Filling boxes with a "while" loop');
 let totalParts = 572;
 let adder = 0;
 let boxes = [];
+let leftovers;
 while(adder >= 0 && adder <=572){
     let filler = adder += 7;
+    
     if(filler <= totalParts){
     boxes.push(filler);
     }
 }
+
 console.log(boxes);
 let totalBoxes = boxes.length;
 console.log('There are',totalBoxes,'boxes filled with 7 parts');
-
-
-    
-
-
-
-
